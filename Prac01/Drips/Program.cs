@@ -10,7 +10,7 @@ namespace Drips
     {
         static void Main(string[] args)
         {
-            Console.Write("How many drip drops do you hear per second?");
+            Console.Write("How many drip drops do you hear each second?");
             double drip_drops = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("This wastes " + 3600/drip_drops*0.00025 + " litres per hour");
             Console.WriteLine("This wastes " + 86400 / drip_drops * 0.00025 + " litres per hour");
